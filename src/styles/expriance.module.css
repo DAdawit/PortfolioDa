@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding-top: 50px;
+  padding: 15px;
+}
+.grid {
+  display: grid;
+  grid-gap: 50px;
+}
+.card {
+  box-shadow: 1px 1px 5px 5px rgb(240, 236, 236);
+}
+.ul {
+  list-style: none;
+}
+.card .heading {
+  background-color: #fe4056;
+  color: white;
+  padding: 10px;
+}
+
+.card .lists {
+  padding: 20px;
+}
+.card .lists li {
+  letter-spacing: 0.25px;
+}
+.card .lists .flex {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  color: #fe4056;
+}
