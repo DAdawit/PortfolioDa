@@ -7,6 +7,8 @@ import About from "components/about";
 import Services from "components/services";
 import Technologies from "components/techonlogies";
 import Expriance from "components/expriance";
+import Contact from "components/constact";
+import Referances from "components/reference";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +22,17 @@ export default function Home() {
       <div id="services">
         <Services />
       </div>
+      <div id="expriance">
+        <Expriance />
+      </div>
       <div id="technologies">
         <Technologies />
       </div>
-      <div id="expriance">
-        <Expriance />
+      <div id="reference">
+        <Referances />
+      </div>
+      <div id="contanct">
+        <Contact />
       </div>
     </>
   );

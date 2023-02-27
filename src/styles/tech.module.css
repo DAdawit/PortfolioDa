@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   background-color: #3d5467;
-  padding: 15px;
 }
 .technologies {
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
@@ -40,6 +41,7 @@
   font-weight: bolder;
   font-size: 40px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .heading p {
   letter-spacing: 0.25px;
@@ -55,11 +57,16 @@
     max-width: 80%;
   }
   .heading {
+    padding-bottom: 15px;
     /* max-width: 80%; */
   }
 }
 
 @media screen and (min-width: 700px) {
+  .techContainer {
+    padding-top: 100px;
+    padding-bottom: 110px;
+  }
   .framework img {
     width: 60px;
     height: 60px;

@@ -23,7 +23,7 @@ a {
 }
 
 nav {
-  margin: 10px 0 80px;
+  margin: 10px 0 0 80px;
   padding: 5px 0;
   display: flex;
   justify-content: flex-end;
@@ -46,7 +46,7 @@ footer {
 }
 
 .hero {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background-image: url("/background2.jpg");
   background-size: cover;
@@ -148,6 +148,10 @@ ul {
 
 /* expriance icon style  */
 .icons {
-  color: #fe4056;
+  color: rgba(230, 197, 10, 0.863);
   padding-right: 5px;
+}
+.star {
+  /* color: gold; */
+  padding-right: 10px;
 }

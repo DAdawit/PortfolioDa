@@ -1,0 +1,39 @@
+.referancesContainer {
+  padding-top: 40px;
+  background-color: white;
+  padding-bottom: 15px;
+}
+.referancesContainer h1 {
+  text-align: center;
+}
+.referances {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+.referances h1 {
+  text-align: center;
+}
+
+.section {
+  text-align: start;
+}
+.imageContainer {
+  margin-top: 100px;
+  background-color: #729ea1;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+.image {
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: -90px;
+  right: -25px;
+}
+
+.referances {
+  display: flex;
+  justify-content: space-around;
+}
