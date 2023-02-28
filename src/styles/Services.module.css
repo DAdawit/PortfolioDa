@@ -12,7 +12,10 @@
   font-weight: bolder;
   font-size: 40px;
   max-width: 1080px;
+  margin-left: 15px;
+  /* text-align: start; */
 }
+
 .services {
   padding: 10px;
   display: flex;
@@ -84,6 +87,9 @@
   .card {
     width: 90%;
   }
+  .card:hover {
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -102,5 +108,8 @@
   }
   .card {
     width: 300px;
+  }
+  .card:hover {
+    width: 350px;
   }
 }

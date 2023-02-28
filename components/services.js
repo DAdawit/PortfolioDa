@@ -18,7 +18,7 @@ const Services = () => {
     <div className={styles.container}>
       <AnimationOnScroll
         animateOnce
-        animateIn="about animate__animated  animate__backInLeft animate__delay-0.8s animate__slow	0.8s"
+        animateIn="animate__animated  animate__backInLeft animate__delay-0.8s animate__slow	0.8s"
       >
         <h1>My Services</h1>
       </AnimationOnScroll>
@@ -28,7 +28,7 @@ const Services = () => {
           animateIn="about animate__animated  animate__fadeInLeft animate__delay-0.9s animate__slow	0.9s"
         >
           <div className={styles.card}>
-            <img src="/service1.png" alt="servic 1" />
+            <img src="/service5.jpg" alt="servic 1" />
             <h2 className={roboto.className}>Website Design</h2>
             <p className={open_sans.className}>
               Provides a comprehensive suite of services including web design,
