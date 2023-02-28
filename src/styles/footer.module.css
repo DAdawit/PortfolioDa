@@ -1,4 +1,23 @@
 .footerContainer {
-  background-color: black;
-  height: 20vh;
+  /* background-color: grey; */
+  padding-right: 25px;
+  height: 15vh;
+  color: black;
+  text-align: end;
+}
+.footerContainer h3 {
+  color: rgb(34, 33, 33);
+}
+
+.footerContainer hr {
+  margin: 30px;
+}
+.socialmediaContainer {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.mediaIcons {
+  margin-right: 10px;
 }

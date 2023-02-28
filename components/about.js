@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
+
 const About = () => {
   const [about, setAbout] = useState({
     title: "I'am Dawit Diriba and Freelancer, web Developer",
@@ -6,8 +9,12 @@ const About = () => {
       "Hi! My name is Albert Walkers. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success.",
   });
   return (
-    <>
-      <div className="about">
+    <AnimationOnScroll
+      animateOnce
+      animateIn="about animate__animated  animate__backInLeft animate__delay-0.5s animate__slow	0.5s"
+    >
+      {/* <div className="about animate__animated  animate__backInLeft animate__delay-0.5s animate__slow	0.5s"> */}
+      <div>
         <h3>BIOGRAPHY</h3>
         <h1>About Me</h1>
         <section>
@@ -47,13 +54,13 @@ const About = () => {
             <span>26</span>
           </div>
           <div className="info-detail">
-            <a href="/Dawit_Diriba_Cv.pdf" download lassName="download-cv">
+            <a href="/Dawit_Diriba_Cv.pdf" download className="download-cv">
               DOWNLOAD CV
             </a>
           </div>
         </section>
       </div>
-    </>
+    </AnimationOnScroll>
   );
 };
 export default About;

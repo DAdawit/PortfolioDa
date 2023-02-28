@@ -28,9 +28,9 @@ export default function Home() {
       <div id="technologies">
         <Technologies />
       </div>
-      <div id="reference">
+      {/* <div id="reference">
         <Referances />
-      </div>
+      </div> */}
       <div id="contanct">
         <Contact />
       </div>

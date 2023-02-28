@@ -10,7 +10,9 @@
   font-size: 25px;
 }
 .form {
+  margin: 0 auto;
   display: grid;
+  max-width: 700px;
 }
 .input {
   width: 100%;

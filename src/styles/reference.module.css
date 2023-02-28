@@ -6,18 +6,27 @@
 .referancesContainer h1 {
   text-align: center;
 }
+.wrap {
+  display: flex;
+  justify-content: center;
+}
 .referances {
+  display: grid;
   margin: 0 auto;
   max-width: 1080px;
 }
+
 .referances h1 {
   text-align: center;
 }
 
 .section {
-  text-align: start;
+  justify-self: center;
+  padding-left: 15px;
+  box-shadow: 1px 1px 5px 5px rgb(237, 231, 231);
 }
 .imageContainer {
+  justify-self: center;
   margin-top: 100px;
   background-color: #729ea1;
   width: 100px;
@@ -33,7 +42,9 @@
   right: -25px;
 }
 
-.referances {
-  display: flex;
-  justify-content: space-around;
+@media screen and (min-width: 518px) {
+  .referances {
+    display: flex;
+    justify-content: space-around;
+  }
 }

@@ -7,6 +7,10 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
@@ -24,9 +28,9 @@ a {
 
 nav {
   margin: 10px 0 0 80px;
-  padding: 5px 0;
+  padding: 5px 15px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
 }
@@ -34,7 +38,7 @@ nav a {
   margin-left: 12px;
 }
 nav .logo {
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 footer {
   display: block;
