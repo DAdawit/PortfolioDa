@@ -1,3 +1,7 @@
+.contact {
+  background-color: white;
+  /* background-color: orange; */
+}
 .container {
   /* background-color: orange; */
   margin: 0px auto;
@@ -23,7 +27,7 @@
   box-shadow: 0px;
   outline: none;
   transition: 0.15s;
-  border: 2px solid #3d5467;
+  border: 2px solid #3f4346;
   border-radius: 10px;
   padding-left: 5px;
   font-family: "Nunito", sans-serif;
@@ -43,9 +47,9 @@
   border-radius: 5px;
   border-color: transparent;
   box-shadow: 0px;
-  outline: none;
+  /* outline: none; */
   transition: 0.15s;
-  border: 2px solid #3d5467;
+  border: 2px solid #3f4346;
   border-radius: 10px;
   padding-left: 5px;
   font-family: "Nunito", sans-serif;
@@ -64,7 +68,7 @@
 }
 
 .container p {
-  color: #3d5467;
+  color: #3f4346;
   margin-bottom: 10px;
   letter-spacing: 0.25px;
 }
@@ -72,9 +76,9 @@
 .submitbutton {
   border: none;
   height: 40px;
-  border: 2px solid #3d5467;
+  border: 2px solid #3f4346;
   background-color: white;
-  color: #3d5467;
+  color: #3f4346;
   font-size: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;

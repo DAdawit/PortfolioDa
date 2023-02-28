@@ -3,7 +3,7 @@
   padding-right: 25px;
   height: 15vh;
   color: black;
-  text-align: end;
+  text-align: center;
 }
 .footerContainer h3 {
   color: rgb(34, 33, 33);
@@ -14,7 +14,7 @@
 }
 .socialmediaContainer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 10px;
   padding-bottom: 10px;
 }

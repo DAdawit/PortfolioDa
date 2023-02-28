@@ -62,7 +62,7 @@ footer {
 }
 .hero h1 {
   color: white;
-  text-shadow: rgba(10, 16, 37, 0.566) 25px 0 20px;
+  /* text-shadow: rgba(10, 16, 37, 0.566) 25px 0 20px; */
 }
 .hero img {
   width: 150px;

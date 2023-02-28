@@ -2,6 +2,7 @@ import styles from "../src/styles/Services.module.css";
 import { Nunito, Rokkitt, Open_Sans } from "next/font/google";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
+
 const roboto = Nunito({
   subsets: ["cyrillic"],
 });

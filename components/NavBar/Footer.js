@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <hr></hr>
-      <h3>@{year}</h3>
+      <h3>@{year} dawitccnt@gmail.com</h3>
 
       <div className={styles.socialmediaContainer}>
         <div className={styles.mediaIcons}>

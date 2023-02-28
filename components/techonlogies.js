@@ -23,46 +23,32 @@ const Technologies = () => {
           </p>
         </div>
         <div className={styles.container}>
-          <section className={styles.mernStack}>
-            <AnimationOnScroll
-              animateOnce
-              animateIn="animate__animated  animate__fadeInRight animate__delay-0.5s animate__slow	0.5s"
-            >
+          <AnimationOnScroll
+            animateOnce
+            animateIn="animate__animated  animate__fadeIn animate__delay-0.5s animate__slow	0.5s"
+          >
+            <section className={styles.mernStack}>
               <div className={styles.framework}>
                 <img src="/frameworks/next.png" alt="next" />
                 <p className={open_sans.className}>Experiance whit Next.js</p>
               </div>
-            </AnimationOnScroll>
 
-            <AnimationOnScroll
-              animateOnce
-              animateIn="animate__animated  animate__fadeInLeft animate__delay-0.5s animate__slow	0.5s"
-            >
               <div className={styles.framework}>
                 <img src="/frameworks/atomreact.png" alt="react" />
                 <p className={open_sans.className}>Experiance whit React.js</p>
               </div>
-            </AnimationOnScroll>
 
-            <AnimationOnScroll
-              animateOnce
-              animateIn="animate__animated  animate__fadeInRight animate__delay-0.5s animate__slow	0.5s"
-            >
               <div className={styles.framework}>
                 <img src="/frameworks/Vuetify.png" alt="vuetify" />
                 <p className={open_sans.className}>Experiance whit vuetify</p>
               </div>
-            </AnimationOnScroll>
-            <AnimationOnScroll
-              animateOnce
-              animateIn="animate__animated  animate__fadeInLeft animate__delay-0.5s animate__slow	0.5s"
-            >
+
               <div className={styles.framework}>
                 <img src="/frameworks/vue.png" alt="vue" />
                 <p className={open_sans.className}>Experiance whit vue.js</p>
               </div>
-            </AnimationOnScroll>
-          </section>
+            </section>
+          </AnimationOnScroll>
         </div>
       </div>
     </div>
