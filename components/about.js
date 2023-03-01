@@ -6,7 +6,7 @@ const About = () => {
   const [about, setAbout] = useState({
     title: "I'am Dawit Diriba and Freelancer, web Developer",
     description:
-      "Hi! My name is Albert Walkers. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success.",
+      "Hi! My name is Albert Walkers. I am a Web Developer, and I'm very passionate and dedicated to my work. With 3+ years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success.",
   });
   return (
     <div className="about">
