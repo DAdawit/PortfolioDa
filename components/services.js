@@ -26,7 +26,7 @@ const Services = () => {
       <div className={styles.services}>
         <AnimationOnScroll
           animateOnce
-          animateIn="about animate__animated  animate__fadeInLeft animate__delay-0.9s animate__slow	0.9s"
+          animateIn="about animate__animated  animate__fadeInLeft animate__delay-0.8s animate__slow	0.8s"
         >
           <div className={styles.card}>
             <img src="/service5.jpg" alt="servic 1" />
