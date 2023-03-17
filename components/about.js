@@ -18,9 +18,9 @@ const About = () => {
       </section>
       <section className="infos">
         <div className="info-detail">
-          <span className="material-icons icons">call</span>
-          <span className="title">Phone</span>
-          <span>+251936207512</span>
+          <span className="material-icons icons">person</span>
+          <span className="title">Name</span>
+          <span>Dawit D.</span>
         </div>
         <div className="info-detail">
           <span className="material-icons icons">calendar_month</span>
@@ -28,9 +28,9 @@ const About = () => {
           <span>01-25-1996</span>
         </div>
         <div className="info-detail">
-          <span className="material-icons icons">email</span>
-          <span className="title">Email</span>
-          <span>dawitccnt@gmail.com</span>
+          <span className="material-icons icons">call</span>
+          <span className="title">Phone</span>
+          <span>+251936207512</span>
         </div>
         <div className="info-detail">
           <span className="material-icons icons">location_on</span>
@@ -39,17 +39,17 @@ const About = () => {
         </div>
 
         <div className="info-detail">
+          <span className="material-icons icons">email</span>
+          <span className="title">Email</span>
+          <span>dawitccnt@gmail.com</span>
+        </div>
+        <div className="info-detail">
           <span className="material-icons icons">school</span>{" "}
           <span className="title">Study</span>
           <span>Degree Haramay Uninversity</span>
         </div>
         <div className="info-detail">
-          <span className="material-icons icons">card_giftcard</span>
-          <span className="title">Age</span>
-          <span>26</span>
-        </div>
-        <div className="info-detail">
-          <a href="/Dawit_Diriba_Cv.pdf" download className="download-cv">
+          <a href="/Dawit+Diriba_N.pdf" download className="download-cv">
             DOWNLOAD CV
           </a>
         </div>

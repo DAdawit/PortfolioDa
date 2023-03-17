@@ -9,12 +9,14 @@ import Technologies from "components/techonlogies";
 import Expriance from "components/expriance";
 import Contact from "components/constact";
 import Referances from "components/reference";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Dawit </title>
+      </Head>
       <Hero />
       <div id="about">
         <About />
@@ -31,7 +33,7 @@ export default function Home() {
       {/* <div id="reference">
         <Referances />
       </div>  */}
-      <div id="contanct">
+      <div id="contact">
         <Contact />
       </div>
     </>

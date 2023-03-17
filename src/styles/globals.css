@@ -98,7 +98,7 @@ footer {
 }
 
 .about h3 {
-  color: #fe4056;
+  color: #123a62;
 }
 
 .about h1 {
@@ -120,11 +120,16 @@ footer {
 .info-detail {
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
+.info-detail a:hover {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  transform: translateY(-10px);
+}
 .info-detail .icons {
-  color: #fe4056;
+  color: #123a62;
 }
 .info-detail .title {
   font-weight: bolder;
@@ -134,7 +139,7 @@ footer {
 
 .info-detail a {
   text-decoration: none;
-  background-color: #fe4056;
+  background-color: #123a62;
   border: none;
   color: white;
   padding: 20px;
