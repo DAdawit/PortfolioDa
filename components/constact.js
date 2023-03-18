@@ -1,9 +1,41 @@
 import styles from "../src/styles/contact.module.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
+  const notify = () => toast("Message sent !");
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_SERVICE,
+        process.env.NEXT_PUBLIC_TEMPLATE,
+        form.current,
+        process.env.NEXT_PUBLIC_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          notify();
+          form.current.user_name.value = "";
+          form.current.user_email.value = "";
+          form.current.message.value = "";
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className={styles.contact}>
+      <ToastContainer />
       <div className={styles.container}>
         <AnimationOnScroll
           animateOnce
@@ -19,12 +51,14 @@ const Contact = () => {
               </p>
             </div>
             <div>
-              <form className={styles.form}>
+              {/* <form className={styles.form}> */}
+              <form className={styles.form} ref={form} onSubmit={sendEmail}>
                 <div className={styles.formcontrol}>
                   <input
                     type="Name"
                     placeholder="Name"
                     className={styles.input}
+                    name="user_name"
                   ></input>
                 </div>
                 <div className={styles.formcontrol}>
@@ -32,11 +66,13 @@ const Contact = () => {
                     type="eamil"
                     placeholder="Email"
                     className={styles.input}
+                    name="user_email"
                   ></input>
                 </div>
                 <div className={styles.formcontrol}>
                   <textarea
                     placeholder="Message"
+                    name="message"
                     className={styles.textarea}
                   ></textarea>
                 </div>
