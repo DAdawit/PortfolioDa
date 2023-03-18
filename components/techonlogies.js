@@ -52,20 +52,24 @@ const Technologies = () => {
             <section className={styles.mernStack}>
               <div className={styles.framework}>
                 <img src="/frameworks/vue.png" alt="vue" />
-                <p className={open_sans.className}>vue.js</p>
+                <p className={open_sans.className}>Vue.js</p>
               </div>
               <div className={styles.framework}>
                 <img src="/frameworks/Vuetify.png" alt="vuetify" />
-                <p className={open_sans.className}>vuetify</p>
+                <p className={open_sans.className}>Vuetify</p>
               </div>
               <div className={styles.framework}>
                 <img src="/frameworks/laravel.png" alt="next" />
                 <p className={open_sans.className}>Laravel</p>
               </div>
 
-              <div className={styles.framework}>
+              {/* <div className={styles.framework}>
                 <img src="/frameworks/node-js.png" alt="react" />
                 <p className={open_sans.className}>Node.js</p>
+              </div> */}
+              <div className={styles.framework}>
+                <img src="/frameworks/graphql.png" alt="react" />
+                <p className={open_sans.className}>Graphql</p>
               </div>
             </section>
             <br></br>
